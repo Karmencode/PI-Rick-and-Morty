@@ -1,0 +1,26 @@
+.navForm{
+    background-color: rgba(162, 0, 255, 0.568);
+    width: fit-content;
+    height: 14em;
+    margin-left: 45%;
+    margin-top: 20%;
+    
+}
+
+.h1F{
+    text-align: center;
+}
+
+label{
+    margin-left: 20px ;
+    font-size: larger;
+    font-weight: 700;
+}
+
+button{
+    background-color: rgb(72, 255, 0);
+    font-size: large;
+    margin-left: 35%;
+    margin-top: 10%;
+    font-weight: 600;
+}

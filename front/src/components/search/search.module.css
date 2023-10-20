@@ -1,0 +1,33 @@
+/* .divBar{
+    display: flex;
+    align-items: center;
+} */
+
+.searchInput{
+    border: 0px;
+    border-radius: 5px 0px 0px 5px;
+    background-color: rgb(229, 240, 216);
+    height: 3.5em;
+    font-weight:bold;
+    box-shadow: 0px 5px 8px 2px rgba(240, 138, 21, 0.637);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.searchBoton{
+    margin: 0;
+    background-color: rgba(17, 231, 17, 0.438);
+    border: 0px;
+    border-radius: 0px 5px 5px 0px;
+    color:  rgba(100, 4, 71, 0.61);
+    font-weight:bolder;
+    height: 2.6em;
+    box-shadow: 0px 5px 8px 2px rgba(240, 138, 21, 0.637);
+    /* width: 9vw; */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+}
+
+.searchBoton:hover{
+    background-color: rgba(241, 44, 182, 0.329);
+    color: rgba(17, 231, 17, 0.808);
+}

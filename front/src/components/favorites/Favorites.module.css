@@ -1,0 +1,4 @@
+.divForm{
+    display: flex;
+    flex-direction: row;
+}

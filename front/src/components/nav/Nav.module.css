@@ -1,0 +1,26 @@
+.navBar{
+    background-color: rgba(55, 187, 28, 0.144); /*Para el contenedor de la barra de navegación */
+    padding: .5em;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 4em;
+
+}
+
+.linkS{
+    color: rgba(21, 255, 0, 0.911);
+    display: flex;
+    justify-content:center;
+    margin-top:3% ;
+    font-size: large;
+
+}
+
+.buttonsLink{
+    background-color: rgba(172, 1, 240, 0.404);
+    margin:auto;
+    margin-left: 5%;
+    width: fit-content;
+    border-radius: 10px;
+
+}

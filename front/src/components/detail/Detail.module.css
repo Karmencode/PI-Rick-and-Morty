@@ -1,0 +1,21 @@
+
+.h3d{
+    text-align: center;
+    background-color: rgba(42, 226, 186, 0.411);
+    margin-bottom: 5px; /*Separación de las cajas*/
+    border-radius: 8px;
+    font-family:monospace;
+    font-size: 150%;
+    border-color: rgba(245, 7, 233, 0.521);
+     border-style:double;
+     color: rgb(3, 49, 110);
+}
+.imgd{
+    width: 38%; /*90%*/
+    /* margin: auto; Para centrar la imagen */
+    margin-left: 30%; /*5%*/
+    border-radius: 12px;
+    margin-top: 20px;
+    opacity: 0.8; /*Para agregar transparencia a la imagen */
+    box-shadow: 10px 10px 5px 0px rgba(30, 255, 0, 0.527); 
+}

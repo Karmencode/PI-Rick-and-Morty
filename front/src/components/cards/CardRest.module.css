@@ -1,0 +1,12 @@
+.contenedor{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-evenly;
+    width:fit-content;
+    height:auto;  /* Para que quepan todas las card-- investigar bien*/
+    margin:20px;
+    /* padding:2rem; */
+    text-align: center;
+    /* background-color: rgba(0, 0, 0, 0.945); */
+}

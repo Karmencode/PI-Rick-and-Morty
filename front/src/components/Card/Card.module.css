@@ -1,0 +1,60 @@
+.contenedor{
+    background-color: rgba(74, 89, 109, 0.623);
+    display: flex;  /*Para que se ajuste si reducimos la pantalla*/
+    flex-direction:column; 
+    width: fit-content;
+    border-radius: 10px;
+    margin: 12px;  /*Para la separación entre Cards*/
+    box-shadow: 10px 10px 5px 0px rgba(145, 5, 150, 0.356); /*Dar sombra al contenedor de las cards*/
+    
+}
+h5{
+    text-align: center;
+    margin: 0;
+    color: rgba(55, 226, 3, 0.849);
+    font-family:cursive;
+}
+h3{
+    background-color: rgba(189, 42, 226, 0.267);
+    width: 17vw; /*Para el ancho de la caja del h3*/
+    margin:auto; /*Para que se centre el texto*/
+    margin-bottom: 3px; /*Separación de las cajas*/
+    border-radius: 8px;
+    font-weight: bolder;
+    font-family:monospace;
+    font-size: 130%;
+    border-color: rgba(107, 4, 102, 0.521);
+     border-style:dashed;
+}
+img{
+    width: 70%; /*90%*/
+    margin: auto; /*Para centrar la imagen */
+    /* margin-left: 15%; */ /*5%*/
+    border-radius: 10px;
+    margin-bottom: 10px;
+    opacity: 0.8; /*Para agregar transparencia a la imagen */
+}
+.botonClose{
+    border-width: 2px;
+    border-color: black;
+     border-style:dashed;  /*Da el estilo punteado */
+    background-color: rgba(97, 255, 5, 0.582);
+    font-size:larger;
+    font-weight: bolder;
+    text-shadow: 4px 3px 2px rgba(0, 0, 0, 0.493);
+    width: fit-content;
+    height:fit-content;
+    transition: 0.5seg; /*Para retrasar el hover*/
+    margin-bottom: 7% ;
+    margin-top: 8%;
+    margin-left: 3%;
+}
+.botonClose:hover{
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75); 
+}
+
+.botonFav{
+    width: fit-content;
+   margin-left: 44%;
+
+}
